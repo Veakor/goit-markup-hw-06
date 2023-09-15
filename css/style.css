@@ -1,32 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p{
-    margin-top: 0;
-    margin-bottom: 0;
-}
-ul,ol{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-.link {
-     text-decoration: none;
-}
-.list {
-list-style-type:none ;
-}
-body{
-font-family: 'Roboto', sans-serif;
-color:#434455; 
-background: #FFFFFF;
-}
-button{
-cursor: pointer;
-}
+
 .page-heder{ 
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),0px 1px 6px rgba(46, 47, 66, 0.08); 
