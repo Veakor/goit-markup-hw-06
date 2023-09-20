@@ -1,6 +1,6 @@
 
 @media(max-width:320px){
-.icon-one{
+.img-class-centr .icon-one{
     display: none;
 }
 }
@@ -27,7 +27,6 @@
     margin-right: 0;
 }
 .benefits-list{
-display: flex;
 gap:24px;
  }
 .benefits-list-item{
