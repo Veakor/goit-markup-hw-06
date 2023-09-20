@@ -1,17 +1,9 @@
 
-
-
-
-
-
-
-
-
 .text-maine{
     background-color: #2E2F42;
-    padding-top: 72px;
-    padding-bottom: 200px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero/gb.jpg");
+    padding-top: 17.5px;
+    padding-bottom: 96px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/retina-w/mobile.jpg");
     background-size: cover;
     max-width: 320px; 
     background-repeat: no-repeat;

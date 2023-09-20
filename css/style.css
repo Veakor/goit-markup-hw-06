@@ -3,52 +3,6 @@
 
 /*SECTION TWO*/
 
-.icon-one{
-    width:264px;
-    height:112px;
-    border-radius:4px;
-    border: 1px solid #8E8F99;
-    background-color:#F4F4FD;
-     margin-bottom: 8px;
-     align-items: center;
-        display: flex;
-        justify-content: center;
-
-     }
-     .img-class-centr{
-        display: flex;
-        text-align: center;
-        justify-content: center;
-     }
-     
-.benefits{
-    padding-top: 120px; 
-    padding-bottom:120px;
-    margin-right: 0;
-}
-.benefits-list{
-display: flex;
-gap:24px;
- }
-.benefits-list-item{
-width:calc((100% - 72px) /4);
-
-}
-.benefits-list-title{
-    margin-bottom: 8px;
-}
-
-.text-three{
-font-weight: 500;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:#2E2F42;
-}
-.text-paragraph{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    }
 
 
 
