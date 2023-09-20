@@ -57,6 +57,17 @@
   <main>
   <section class="text-maine">
       <div class="container">
+        <img srcset="./images/retina-w/desktop.jpg 1158px,
+        ./images/retina-w/desktop@2.jpg 2880px,
+        ./images/retina-w/tablet.jpg 768px,
+        ./mages/retina-w/tablet@2.jpg 1536 px,
+        ./images/retina-w/mobile.jpg 320px,
+        ./mages/retina-w/mobile@2.jpg 432px"
+        
+        sizes="(min-width: 1158px) 1158px, (min-width: 768px) 768px, (max-width: 320px) 320px"
+        src="./images/retina-w/mobile.jpg"
+        alt="retina picture"
+        />
         <h1 class="main-item-h">Effective Solutions for Your Business</h1>
         <button class="text-button" type="button">Order Service</button>
       </div>
@@ -476,7 +487,7 @@
     </div>
   </div>---->
   <!-----Mobile menu-->
-  <div class="mobile-menu is-open">
+  <div class="mobile-menu"> <!--Is-open-->
     <button class="close-btn" type="button">
       <svg class="close-btn-icon" width="8" height="8" aria-label="model close icon">
         <use href="./images/icons.svg#icon-close-black"></use>
