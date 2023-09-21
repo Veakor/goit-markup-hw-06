@@ -33,3 +33,6 @@ cursor: pointer;
 .color{
     color:  #2E2F42;
   }
+.benefits-list-item{
+    width:calc((100% - 72px) /4);
+}

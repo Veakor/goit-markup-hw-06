@@ -46,10 +46,16 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 .container-team{
 margin-bottom: 72px;
+margin-top: 96px;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1; /* 111.111% */
+letter-spacing: 0.02px;
+text-transform: capitalize;
 } 
 .team-personal{
-    display: flex;
-  width: 264px;
+display: flex;
+width: 264px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
