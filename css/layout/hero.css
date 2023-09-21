@@ -14,6 +14,43 @@
     padding-left: 16px;
     padding-right: 16px;
 }
+
+@media screen and (min-resolution: 192dpi) and (min-width: 320px),
+       screen and (min-resolution: 2dppx) and (min-width: 320px),
+       screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
+        .text-maine{
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/retina-w/mobile@2x.jpg);
+       }
+    }
+
+@media screen and (min-width: 768px){
+.text-maine{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/retina-w/tablet.jpg);
+   }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+       screen and (min-resolution: 2dppx) and (min-width: 768px),
+       screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+        .text-maine{
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/retina-w/tablet@2x.jpg);
+       }
+    }
+
+@media screen and (min-width: 1158px){
+    .text-maine{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/retina-w/desktop.jpg);
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px),
+       screen and (min-resolution: 2dppx) and (min-width: 1158px),
+       screen and (min-device-pixel-ratio: 2) and (min-width: 1158px) {
+        .text-maine{
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../../images/retina-w/desktop@2x.jpg);
+       }
+    }
+    
 .main-item-h{
     font-family:'Roboto', sans-serif;
     font-size: 36px;
