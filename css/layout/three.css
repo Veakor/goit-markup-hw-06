@@ -54,7 +54,7 @@ letter-spacing: 0.02px;
 text-transform: capitalize;
 } 
 .team-personal{
-display: flex;
+display: inline-block;
 width: 264px;
 flex-direction: column;
 justify-content: center;
