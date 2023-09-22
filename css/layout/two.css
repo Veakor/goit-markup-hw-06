@@ -1,6 +1,6 @@
 
-@media(min-width:320px){
-.img-class-centr .icon-one .benefits-list-item{
+@media (min-width:320px){
+ .icon-one {
     display: none;
 }
 }
@@ -11,10 +11,9 @@
     margin-right: 0;
 }
 .benefits-list{
-    display: inline-flex;
-    flex-direction:column;
-    align-items: flex-start;
-    gap: 72px;
+display: blok;
+gap: 72px;
+
     }
 
 .benefits-list-title{
@@ -22,11 +21,13 @@
 }
 
 .text-three{
+font-size: 36px;
 font-weight: 700;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color:#2E2F42;
 text-transform: capitalize;
+text-align: center;
 }
 .text-paragraph{
     font-size: 16px;
@@ -34,6 +35,7 @@ text-transform: capitalize;
     letter-spacing: 0.02em;
     text-align: left;
     align-self: stretch;
+
     }
 
 
