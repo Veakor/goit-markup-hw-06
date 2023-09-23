@@ -11,7 +11,8 @@
     margin-right: 0;
 }
 .benefits-list{
-display: blok;
+display: inline-flex;
+flex-direction: column;
 gap: 72px;
 
     }
