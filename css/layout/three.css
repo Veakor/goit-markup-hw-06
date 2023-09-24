@@ -105,6 +105,39 @@ background-color: #F4F4FD;
 
 
 
+  @media(min-width:1158px){
+    .column-list{
+        display:flex;
+        border-radius: 0px 0px 4px 4px;
+        gap: 24px;
+        }
+        .team-item-list {
+            width: calc((100% - 72px) /4);
+            margin-right: 0;
+            display: block;
+        }
+        
+        .container-team{
+        margin-bottom: 72px;
+        } 
+        .team-personal{
+            padding-top: 32px;
+            padding-bottom: 32px;
+            box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),0px 1px 6px rgba(46, 47, 66, 0.08); 
+        }
+        .team-name{
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        
+        .section-our{
+            padding-top:120px ;
+            padding-bottom:120px ;
+        }
+ }
+
+
+
 
 
 /*SECTION THREE*/

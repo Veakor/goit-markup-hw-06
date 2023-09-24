@@ -155,7 +155,6 @@ margin-right: 103px;
       .footer-button{
         min-width: 165px;
         height: 40px; 
-        
         justify-content: center;
         align-items: center;
         font-family:  "Roboto", sans-serif;
@@ -180,6 +179,60 @@ margin-right: 103px;
     .footer-icon{
         margin-left: 16px; 
     }
+
+
+
+
+
+    @media(min-width:1158px){
+       
+        .footer-container{
+            display: flex;
+        }
+        .foot-div{
+            margin-right: 1020px;
+        }
+        .footer-list{
+
+        }
+        
+        .footer-social-text{
+       margin-top: auto;
+       margin-left: 0;
+        margin-bottom: 16px;
+        
+        }
+        .class-footer-one{
+        display: inline-block;
+        margin-bottom: 16px;
+        }
+  
+          .footer-column{
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+            .footer-change{
+                margin-left: 80px;
+            }
+            .form-footer{
+                display: flex;
+                gap:24px;
+              }
+              .footer-input{
+                width: 264px; 
+                }
+              
+                .footer-button{
+                min-width: 165px;
+                display: flex;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+                 border: none;
+                 margin-top: 0;
+                margin-left: 0;
+            }
+        
+             }
   
 
 
