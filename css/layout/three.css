@@ -25,16 +25,15 @@
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .column-list{
-display:flex;
 border-radius: 0px 0px 4px 4px;
 justify-content: center;
 align-items: left;
 gap: 24px;
-
 }
 @media(min-width: 768px){
     .column-list{
             flex-wrap: wrap;
+            display: flex;
             
         }
 
