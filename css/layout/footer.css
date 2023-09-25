@@ -202,12 +202,13 @@ margin-right: 103px;
        
         .footer-container{
             display: flex;
+            align-items: none;
         }
         .foot-div{
-            margin-right: 1020px;
+        
         }
         .footer-list{
-
+         margin-left: 0;
         }
         
         .footer-social-text{
