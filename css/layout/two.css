@@ -55,8 +55,8 @@ gap: 72px;
         justify-content: center;
      }
      .benefits{
-        padding-top: 120px; 
-        padding-bottom:120px;
+        padding-top:0; 
+        padding-bottom:0;
         margin-right: 0;
     } 
     .text-three{
