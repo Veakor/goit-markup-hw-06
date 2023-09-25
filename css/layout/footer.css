@@ -15,8 +15,8 @@
     .footer-container{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+      align-items: center;
+        
        
     }
 }
@@ -40,17 +40,21 @@ margin-left: 96px ;
     }
 }
 
+
 .footer-text{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align:center;
-    margin-top: 72px;
     color: #FFFFFF;
     margin-bottom: 16px;
      }
-
+     @media(min-width:1158px){
+        .footer-text{
+            margin-top: 0;
+        }
+    }
 
 .footer-list{
 display: flex; 
@@ -66,6 +70,12 @@ margin-left: 40px;
     .footer-list{
         padding-bottom: 144px;
     }
+}
+@media(min-width:1158px){
+.footer-list{
+    padding-bottom: 0;
+}
+
 }
 .footer-item{
     display: block;
@@ -92,9 +102,7 @@ background-color: #FFFFFF;
 
 .class-footer-one{
 display: inline-block;
-margin-bottom: 17.5px;
-margin-left: 86px;
-margin-right: 103px;
+
 }
 
 .background-foot{
@@ -134,7 +142,7 @@ margin-right: 103px;
         text-align: left;
         text-transform: uppercase ;
         color: #4d5ae5;
-        padding-top: 95px;
+        
     }
 
       
@@ -197,9 +205,10 @@ margin-right: 103px;
         .footer-container{
             display: flex;
             align-items: none;
+            justify-content: none;
         }
         .foot-div{
-        
+        margin-right: 120px;
         }
         .footer-list{
          margin-left: 0;
@@ -215,14 +224,16 @@ margin-right: 103px;
         display: inline-block;
         margin-bottom: 16px;
         }
-  
+        .footer-change{
+            margin-right: px;
+        }
           .footer-column{
             padding-top: 100px;
             padding-bottom: 100px;
         }
             
         .footer-change{
-                margin-left: ;
+                margin-left:80px ;
             }
            
          .form-footer{
@@ -246,10 +257,7 @@ margin-right: 103px;
         .logotype-footer{
                padding-top: 0 ;
             }
-        .paragraf-foot{
-            ;
-             }
-            }
+ }
 
 
 

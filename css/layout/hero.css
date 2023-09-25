@@ -14,6 +14,19 @@
     padding-left: 16px;
     padding-right: 16px;
 }
+@media(min-width:768px){
+.text-maine{
+    padding-bottom: 204px;
+}
+}
+
+ @media(min-width:1158px){
+    .text-maine{
+        padding-top:188px ;
+        padding-bottom: 188px;
+        max-width: 1440px; 
+    }
+ }
 
 
 @media screen and (min-resolution: 192dpi) and (min-width: 320px),
@@ -75,8 +88,16 @@
     .main-item-h{
 font-size: 56px;
 max-width: 496px;
-padding-top: 112px ;
-padding-bottom: 36px;
+    }
+}
+@media(min-width:1158px){
+    .main-item-h{
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left:auto ;
+        margin-right:auto ;
+        margin-bottom: 48px;
+        text-align: center;
     }
 }
    button{

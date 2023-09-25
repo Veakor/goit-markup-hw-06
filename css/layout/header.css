@@ -7,7 +7,7 @@
 
 .head-address{
     display: none;
-
+  
 }
 .page-heder{
     padding-top: 16px;
@@ -145,12 +145,16 @@
             padding-left: 121px;
         
         }
+        .head-address{
+            font-style: normal;
+        }
         .social-list{
             display: block;
             gap: 16px;
             margin-left: auto;
         }
     }
+
     @media(min-width: 1158px){
         .text-address{
             font-size: 16px;
@@ -159,6 +163,7 @@
              padding-bottom:24px;
              display: block;
              padding-left: 0;
+             margin-top: 0;
         }
       .social-list{
                 display: flex;
@@ -170,8 +175,12 @@
                 color:#404BBF;
     }
      .finish{
-                margin-right: 0;
-                }
+         margin-right: 0;
+            }
+    .head-address{
+                font-style: normal;
+
+            }      
     }
     .color-meil-mobile{
     color: var(--SLATE, #434455);

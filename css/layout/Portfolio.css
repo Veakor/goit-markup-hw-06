@@ -19,6 +19,11 @@
         display: block;
 }
     }
+    .img-display-weidth{
+        display: block;
+        max-width:100% ;
+        height: auto;
+    }
     
     .team-name-two{
         text-align: left;
@@ -182,6 +187,7 @@
             .besstseller-list-img{
                 position:relative ;
                 overflow: hidden;
+                display: block;
             } 
             
             .port-img:hover{
@@ -192,6 +198,7 @@
                 transform:  translateY(0%);
             }*/ 
     }
+    
     
 
 
