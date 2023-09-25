@@ -31,7 +31,9 @@ gap: 72px;
    @media(min-width:1158px){
 .benefits-list{
     display: flex;
-        gap:24px;
+   gap:24px;
+   flex-direction: row;
+
  }
  .benefits-list-item{
     width:calc((100% - 72px) /4);
@@ -53,8 +55,8 @@ gap: 72px;
         justify-content: center;
      }
      .benefits{
-        padding-top: 0px; 
-        padding-bottom:0px;
+        padding-top: 120px; 
+        padding-bottom:120px;
         margin-right: 0;
     } 
     .text-three{
@@ -62,13 +64,9 @@ gap: 72px;
     line-height: 1.2;
     }
 }
-
-  
-
 .benefits-list-title{
     margin-bottom: 8px;
 }
-
 .text-three{
 font-size: 36px;
 font-weight: 700;
