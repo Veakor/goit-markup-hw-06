@@ -226,18 +226,21 @@ margin-right: 103px;
             padding-top: 100px;
             padding-bottom: 100px;
         }
-            .footer-change{
-                margin-left: 80px;
+            
+        .footer-change{
+                margin-left: ;
             }
-            .form-footer{
+           
+         .form-footer{
                 display: flex;
+                align-items: baseline;
                 gap:24px;
               }
-              .footer-input{
+         .footer-input{
                 width: 264px; 
                 }
               
-                .footer-button{
+          .footer-button{
                 min-width: 165px;
                 display: flex;
                 line-height: 1.5;
@@ -246,7 +249,7 @@ margin-right: 103px;
                  margin-top: 0;
                 margin-left: 0;
             }
-            .logotype-footer{
+        .logotype-footer{
                padding-top: 0 ;
             }
         .paragraf-foot{
