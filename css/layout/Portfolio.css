@@ -136,6 +136,9 @@
             .wrap-list{
                  flex-wrap: wrap;
                 }
+             .port-img{
+                width: calc((100% - 72px) /3);
+             }   
             
              .two-team{
             font-size: 36px;
