@@ -141,9 +141,7 @@ margin-right: 103px;
       @media(min-width:768px){
         .footer-text{
             text-align: left;
-
-
-        }
+}
       }
       .form-footer{
         display: inline-block;
@@ -194,11 +192,7 @@ margin-right: 103px;
         margin-left: 16px; 
     }
 
-
-
-
-
-    @media(min-width:1158px){
+ @media(min-width:1158px){
        
         .footer-container{
             display: flex;

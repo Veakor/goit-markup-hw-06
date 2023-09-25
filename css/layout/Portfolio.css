@@ -111,7 +111,7 @@
     @media(min-width:1158px){
        
             .portfolio-column{
-            padding-top: 120px;
+            padding-top: 0;
             padding-bottom: 120px;
             }
             
