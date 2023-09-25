@@ -49,6 +49,12 @@ gap: 72px;
  align-items: left;
  flex-direction: row;
    }
+   .benefits-list-text{
+    font-weight: 500;
+   }
+   .text-three{
+    text-align: left;
+   }
    .benefits-list-item{
     width:calc((100% - 24px) /2);
     margin-right: 0;

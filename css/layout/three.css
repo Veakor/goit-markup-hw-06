@@ -12,6 +12,9 @@
     gap: 24px;
     margin-top: 8px;
 }
+img{
+    display: block;
+}
 .icon-our-title{
     display: block;
     width:40px;
@@ -31,13 +34,13 @@ align-items: left;
 gap: 24px;
 }
 @media(min-width: 768px){
-    .column-list{
+.column-list{
             flex-wrap: wrap;
             display: flex;
-            
+            gap: 64px 24px;
         }
 
-        .team-item-list {
+ .team-item-list {
             width: calc((100% - 24px) /2);
             margin-right: 0;
             display: block;
@@ -108,7 +111,6 @@ background-color: #F4F4FD;
     .column-list{
         display:flex;
         border-radius: 0px 0px 4px 4px;
-        gap: 24px;
         }
         .team-item-list {
             width: calc((100% - 72px) /4);

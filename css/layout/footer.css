@@ -19,10 +19,8 @@ padding-top: 90px;}
     .footer-container{
         display: flex;
         flex-wrap: wrap;
-      align-items: center;
-        
-       
-    }
+      max-width: 584px;
+        }
 }
 
 
@@ -33,12 +31,10 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
-margin-top: 72px;
-margin-left: 96px ;
 }
 @media(min-width:768px){
     .footer-social-text{
-        margin-top: 96px;
+        
         text-align: left;
 
     }
@@ -67,12 +63,17 @@ width: 208px;
 height: 40px;
 gap: 16px;
 list-style-type: none;
-margin-left: 40px;
+margin-left: px;
 
 }
 @media(min-width:768px){
     .footer-list{
-        padding-bottom: 144px;
+        padding-bottom: 0;
+    }
+    .footer-div{
+        display: block;
+        padding-top: 90px;
+        margin-left: 24px;
     }
 }
 @media(min-width:1158px){
@@ -132,11 +133,6 @@ display: inline-block;
     padding-bottom: 96px;
 }
 
-@media(min-width: 768px){
-    .footer-column{
- 
-}
-}
     .logotype-footer{
         font-family:'Raleway', sans-serif;
         font-size: 18px;
@@ -147,6 +143,7 @@ display: inline-block;
         text-transform: uppercase ;
         color: #4d5ae5;
         align-items: center;
+        display: inline-block;
         
     }
 
@@ -157,7 +154,7 @@ display: inline-block;
 }
       }
       .form-footer{
-        display: inline-block;
+        display: flex;
         gap:24px;
       }
       .footer-input{
@@ -192,11 +189,12 @@ display: inline-block;
         background-color: #4D5AE5;
         border: none;
         border-radius: 4px; 
-        margin-left: 61px;
-        margin-top: 16px;
+        padding: 8px 24px 8px;
+        
     }
     @media(min-width:768px){
-        .footer-button:{
+        .footer-change{
+            margin-top: 72px;
       
         }
     }
@@ -211,9 +209,11 @@ display: inline-block;
             display: flex;
             align-items: none;
             justify-content: none;
+            max-width: 1440px;
         }
         .foot-div{
         margin-right: 120px;
+        padding-top: 0;
         }
         .footer-list{
          margin-left: 0;

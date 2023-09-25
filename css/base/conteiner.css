@@ -15,14 +15,14 @@
 
     @media screen and (min-width: 768px){
         .container {
-            max-width: 768px;
+            max-width: 584px;
         }
         }
     @media screen and (min-width:1158px){
             .container {
                 max-width: 1440px;
                 padding-left: 15px;
-                padding-right: 15 px;
+                padding-right: 15px;
             }
             }
    

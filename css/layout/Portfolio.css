@@ -21,8 +21,8 @@
     }
     .img-display-weidth{
         display: block;
-        max-width:100% ;
-        height: auto;
+        max-width:360px;
+        height: 300px;
     }
     
     .team-name-two{
@@ -30,8 +30,8 @@
         margin-bottom: 8px; 
     }
     .portfolio-column{
-    margin-top: 96px;
-    margin-bottom: 72px;
+    padding-top: 96px;
+    padding-bottom: 72px;
     }
     
     .port-border{
@@ -116,7 +116,7 @@
     @media(min-width:1158px){
        
             .portfolio-column{
-            padding-top: 0;
+            padding-top: 120px;
             padding-bottom: 120px;
             }
             
