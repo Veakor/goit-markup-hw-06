@@ -11,6 +11,10 @@
     display: inline-block;
     align-items: baseline;
 }
+@media(min-width:320px){
+.foot-div{
+padding-top: 90px;}
+}
 @media(min-width:768px){
     .footer-container{
         display: flex;
