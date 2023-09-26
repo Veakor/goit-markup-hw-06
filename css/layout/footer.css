@@ -236,6 +236,9 @@ display: inline-block;
         margin-right: 120px;
         padding-top: 0;
         }
+        .footer-div{
+            padding-top: 0;
+        }
         .footer-list{
          margin-left: 0;
         }
@@ -261,7 +264,8 @@ display: inline-block;
         }
             
         .footer-change{
-                margin-left:80px ;
+                margin-left:50px ;
+                margin-top: 0;
             }
            
          .form-footer{
