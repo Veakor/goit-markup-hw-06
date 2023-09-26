@@ -24,6 +24,9 @@ align-items: center;
 
 }
 }
+.footer-change{
+    margin-top: 72px;
+}
 
 @media(min-width:768px){
     .footer-container{
@@ -142,8 +145,7 @@ display: inline-block;
 }
 
 .footer-column{
-   
-    padding-bottom: 96px;
+   padding-bottom: 96px;
 }
 
     .logotype-footer{
@@ -259,9 +261,6 @@ display: inline-block;
         display: inline-block;
         margin-bottom: 16px;
         }
-        .footer-change{
-            margin-right: px;
-        }
           .footer-column{
             padding-top: 100px;
             padding-bottom: 100px;
@@ -270,6 +269,7 @@ display: inline-block;
         .footer-change{
                 margin-left:50px ;
                 margin-top: 0;
+                margin-right: 0;
             }
            
          .form-footer{
