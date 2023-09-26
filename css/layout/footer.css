@@ -17,7 +17,12 @@ padding-top: 90px;
 justify-content: center;
 align-items: center;
 }
+footer-div{
+    justify-content: center;
+align-items: center;
 }
+}
+
 @media(min-width:768px){
     .footer-container{
         display: flex;
