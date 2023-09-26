@@ -56,6 +56,12 @@
     line-height: 0;
     }
 }
+@media(min-width:320px){
+    .open-mobile-menu-btn:hover,
+  .open-mobile-menu-btn:focus{
+    background-color: #404BBF; 
+}
+}
 .page-header-container{
     display: flex;
     align-items: center;

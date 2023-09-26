@@ -13,7 +13,10 @@
 }
 @media(min-width:320px){
 .foot-div{
-padding-top: 90px;}
+padding-top: 90px;
+justify-content: center;
+align-items: center;
+}
 }
 @media(min-width:768px){
     .footer-container{
@@ -31,12 +34,15 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
+align-items: center;
+justify-content: center;
+margin-top: 72px;
 }
 @media(min-width:768px){
     .footer-social-text{
-        
+        align-items: left;
+         margin-top: 0;
         text-align: left;
-
     }
 }
 
@@ -59,16 +65,18 @@ margin-bottom: 16px;
 .footer-list{
 display: flex; 
 justify-content: center;  
+align-items: center;
 width: 208px;
 height: 40px;
 gap: 16px;
 list-style-type: none;
-margin-left: px;
+
 
 }
 @media(min-width:768px){
     .footer-list{
         padding-bottom: 0;
+
     }
     .footer-div{
         display: block;
@@ -122,6 +130,7 @@ display: inline-block;
         color: #F4F4FD;
         text-align: left;
         max-width: 264px;
+      
 }
 
     .color-text-foot{
@@ -143,7 +152,8 @@ display: inline-block;
         text-transform: uppercase ;
         color: #4d5ae5;
         align-items: center;
-        display: inline-block;
+        display:flex;
+        justify-content: center;
         
     }
 
@@ -191,16 +201,18 @@ display: inline-block;
         border-radius: 4px; 
         display: inline-flex;
        padding: 8px 24px;
-       justify-content: center;
-       align-items: center;
         
         
     }
     @media(min-width:768px){
         .footer-change{
             margin-top: 72px;
-      
-        }
+      }
+      .logotype-footer{
+        padding-top: 0 ;
+        align-items: left;
+        justify-content: left;
+     }
     }
 
     .footer-icon{
@@ -227,6 +239,8 @@ display: inline-block;
        margin-top: auto;
        margin-left: 0;
         margin-bottom: 16px;
+        align-items: left;
+      
         
         }
         .class-footer-one{
@@ -265,7 +279,10 @@ display: inline-block;
             }
         .logotype-footer{
                padding-top: 0 ;
+               align-items: left;
+               justify-content: left;
             }
+            .footer-so
  }
 
 

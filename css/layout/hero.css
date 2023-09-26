@@ -109,9 +109,9 @@ margin-bottom: 36px;
       
         }
     }
-    button:hover,
-    button:focus{
-    background-color: #404BBF;  
+    .open-moobile-menu-btm :hover,
+   .open-moobile-menu-btm:focus{
+    background-color:none;  
     }
     .text-button{
     font-family: "Roboto",sans-serif; 
