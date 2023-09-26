@@ -51,7 +51,7 @@
      @media (min-width: 320px) and (max-width:767px){
 .open-mobile-menu-btn{
     border: none;
-    background-color: transparent;
+    background-color:transparent;
     padding: 0;
     line-height: 0;
     }
@@ -217,9 +217,10 @@
         position: relative;
         padding-top:24px;
         padding-bottom:24px;
-}
+
         transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
+    }
     .line-header::after{
             position: absolute;
             left: 0;
@@ -235,7 +236,7 @@
              border-radius: 2px;
     }
     .color-studio{
-      color: var(--OCEAN, #404BBF);
+        color: var(--OCEAN, #404BBF);
     }
 
 
