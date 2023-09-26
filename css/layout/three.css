@@ -31,7 +31,7 @@ img{
 border-radius: 0px 0px 4px 4px;
 justify-content: center;
 align-items: left;
-gap: 24px;
+gap: 0px 72px;
 }
 @media(min-width: 768px){
 .column-list{
@@ -44,6 +44,7 @@ gap: 24px;
             width: calc((100% - 24px) /2);
             margin-right: 0;
             display: block;
+            gap: 72px;
     }
 }
 .color-team{
@@ -111,6 +112,7 @@ background-color: #F4F4FD;
     .column-list{
         display:flex;
         border-radius: 0px 0px 4px 4px;
+        gap:24px;
         }
         .team-item-list {
             width: calc((100% - 72px) /4);

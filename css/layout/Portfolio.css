@@ -21,10 +21,16 @@
     }
     .img-display-weidth{
         display: block;
-        max-width:360px;
-        height: 300px;
+        max-width:288px;
+        height: 280px;
     }
-    
+    @media(min-width:768px){
+        .img-display-weidth{
+            display: block;
+            max-width:356px;
+            height: 300px;
+    }
+}
     .team-name-two{
         text-align: left;
         margin-bottom: 8px; 
@@ -114,6 +120,11 @@
 
 
     @media(min-width:1158px){
+        .img-display-weidth{
+            display: block;
+            max-width:360px;
+            height: 300px;
+        }
        
             .portfolio-column{
             padding-top: 120px;
