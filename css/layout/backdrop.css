@@ -41,6 +41,11 @@
    padding-left: 24px;
    padding-top: 72px;
 }
+@media(min-width: 768px){
+    .modal{
+        width: 408px;
+    }
+}
 
   
 
