@@ -39,8 +39,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
-align-items: center;
-justify-content: center;
+text-align: center;
 margin-top: 72px;
 }
 @media(min-width:768px){
@@ -71,8 +70,7 @@ margin-top: 72px;
 display: flex; 
 justify-content: center;  
 align-items: center;
-width: 208px;
-height: 40px;
+
 gap: 16px;
 list-style-type: none;
 
