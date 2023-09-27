@@ -13,15 +13,15 @@
 }
 }
 .footer-container{
-    display: inline-block;
     align-items: baseline;
 }
 @media(min-width:320px){
 .foot-div{
-padding-top: 90px;
 justify-content: center;
 align-items: center;
-
+}
+.footer-column{
+    padding-top: 90px;
 }
 }
 .footer-change{
@@ -33,6 +33,8 @@ align-items: center;
         display: flex;
         flex-wrap: wrap;
       max-width: 584px;
+      padding-top: 96px;
+      padding-bottom: 96px;
         }
 }
 
@@ -45,7 +47,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-bottom: 16px;
 text-align: center;
-margin-top: 72px;
+padding-top: 72px;
 }
 @media(min-width:768px){
     .footer-social-text{
@@ -77,25 +79,23 @@ justify-content: center;
 align-items: center;
 gap: 16px;
 list-style-type: none;
-
-
 }
 @media(min-width:768px){
     .footer-list{
         padding-bottom: 0;
-
-    }
+}
     .footer-div{
-        display: block;
-        padding-top: 90px;
         margin-left: 24px;
     }
+    .foot-div{
+        padding-top: 0;
+    }
+   
 }
 @media(min-width:1158px){
 .footer-list{
     padding-bottom: 0;
 }
-
 }
 .footer-item{
     display: block;
@@ -140,7 +140,7 @@ display: inline-block;
       
 }
 
-    .color-text-foot{
+.color-text-foot{
         color: #F4F4FD;
 }
 
@@ -148,7 +148,7 @@ display: inline-block;
    padding-bottom: 96px;
 }
 
-    .logotype-footer{
+ .logotype-footer{
         font-family:'Raleway', sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -158,8 +158,8 @@ display: inline-block;
         text-transform: uppercase ;
         color: #4d5ae5;
         align-items: center;
-        display:flex;
         justify-content: center;
+        display: flex;
         
     }
     .form-footer{
@@ -167,13 +167,16 @@ display: inline-block;
       }
       
       @media(min-width:768px){
-        .footer-text{
+   .footer-text{
             text-align: left;
 }
-.form-footer{
+  .form-footer{
     display: flex;
     gap:24px;
   }
+  .footer-column{
+    padding-bottom: 0;
+ }
       }
       
       .footer-input{
@@ -222,8 +225,7 @@ display: inline-block;
       }
       .logotype-footer{
         padding-top: 0 ;
-        align-items: left;
-        justify-content: left;
+       justify-content: left;
      }
     }
 
@@ -242,9 +244,11 @@ display: inline-block;
         .foot-div{
         margin-right: 120px;
         padding-top: 0;
+       
         }
         .footer-div{
             padding-top: 0;
+            margin-left: 0;
         }
         .footer-list{
          margin-left: 0;
@@ -267,7 +271,7 @@ display: inline-block;
         }
             
         .footer-change{
-                margin-left:50px ;
+                margin-left:80px ;
                 margin-top: 0;
                 margin-right: 0;
             }

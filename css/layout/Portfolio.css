@@ -12,12 +12,16 @@
         }
 
 
-    @media(width:768px){
+    @media(min-width:768px){
        .port-img{
         width: calc((100% - 24px) /2);
         margin-right: 0;
         display: block;
 }
+     .wr.img{
+        max-width: 768px;
+        margin: auto;
+     }
     }
     .img-display-weidth{
         display: block;
