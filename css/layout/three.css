@@ -146,6 +146,9 @@ background-color: #F4F4FD;
             text-align: center;
             margin-bottom: 8px;
         }
+        .team-conteiner{
+            max-height:1158px ;
+        }
         
         .section-our{
             padding-top:120px ;
