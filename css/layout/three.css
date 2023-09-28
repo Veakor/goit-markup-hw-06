@@ -124,7 +124,7 @@ background-color: #F4F4FD;
 
   @media(min-width:1158px){
     .column-list{
-        display:flex;
+        display:inline-flex;
         border-radius: 0px 0px 4px 4px;
         gap:24px;
         }
@@ -133,8 +133,8 @@ background-color: #F4F4FD;
             margin-right: 0;
             display: block;
         }
-        
-        .container-team{
+        .conteiner-team{
+            max-width: 1440px;
         margin-bottom: 72px;
         } 
         .team-personal{
@@ -151,7 +151,7 @@ background-color: #F4F4FD;
             padding-top:120px ;
             padding-bottom:120px ;
         }
- }
+    }
 
 
 
