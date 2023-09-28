@@ -262,7 +262,7 @@
         color: var(--OCEAN, #404BBF);
     }
     .page-navigation{
-        padding-top:72px;
+        padding-top:0;
     }
 
 

@@ -54,6 +54,7 @@ padding-top: 72px;
         align-items: left;
          margin-top: 0;
         text-align: left;
+        padding-top: 0;
     }
 }
 
@@ -176,6 +177,7 @@ display: inline-block;
   }
   .footer-column{
     padding-bottom: 0;
+    padding-top: 0;
     
  }
       }
@@ -241,6 +243,8 @@ display: inline-block;
             align-items: none;
             justify-content: none;
             max-width: 1440px;
+            padding-top: 0;
+            padding-bottom: 0;
         }
         .foot-div{
         margin-right: 120px;

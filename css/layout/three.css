@@ -84,6 +84,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     
 }
 @media(min-width:768px){
+    .color-team:not(:last-child) {margin-bottom: 72px;}
     .section-our{
         max-width: 584px;
     }
@@ -147,7 +148,8 @@ background-color: #F4F4FD;
             margin-bottom: 8px;
         }
         .team-conteiner{
-            max-height:1158px ;
+            width: 1440px;
+            height: 780px; ;
         }
         
         .section-our{
