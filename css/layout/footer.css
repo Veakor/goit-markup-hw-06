@@ -240,8 +240,8 @@ display: inline-block;
        
         .footer-container{
             display: flex;
-            align-items: none;
-            justify-content: none;
+            align-items:center ;
+            justify-content: center;
             max-width: 1440px;
             padding-top: 0;
             padding-bottom: 0;
